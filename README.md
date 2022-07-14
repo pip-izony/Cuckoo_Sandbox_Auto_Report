@@ -14,4 +14,5 @@ pip install chromedriver-autoinstaller
 ``` 
 * __Second, set your environment infomation.__
 * __Third, you should insert the malware path in "your_file_path"__
-* Optionally you can send the report information to database using SQL.
+
+Optionally you can send the report information to database using SQL.
