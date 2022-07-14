@@ -3,8 +3,7 @@
 
 Before starting, you should install the Cuckoo Sandbox.
 Cuckoo Sandbox Github : <https://github.com/cuckoosandbox>
-
-#### Manual
+### Manual
 - - -
 This is a Crawler to get Cuckoo Sandbox Report autometically.
 You can get the report to JSON.
@@ -17,4 +16,4 @@ You can get the report to JSON.
 If you use Linux, change pip to pip3.
 
 * Second, set your environment infomation.
-* Third, you should insert the malware path in "your_malware_path"
+* Third, you should insert the malware path in "your_file_path"
