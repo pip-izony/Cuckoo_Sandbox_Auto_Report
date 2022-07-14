@@ -21,3 +21,4 @@ path = '/home/ubuntu/.cuckoo/storage/analyses/' + str(file_count) + '/reports/re
 * __Third, you should insert the malware path in "your_file_path"__
 
 Optionally you can send the report information to database using SQL.
+
