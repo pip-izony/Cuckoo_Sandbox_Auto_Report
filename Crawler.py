@@ -1,6 +1,6 @@
 from selenium import webdriver
 import json
-#import pymysql
+import pymysql
 import time
 import os.path
 
@@ -27,7 +27,7 @@ while True :
   if os.path.isfile(path):
     print("report found")
     break
-
+#SQL module
 with open('/home/ubuntu/.cuckoo/storage/analyses/latest/reports/report.json') as f:
   data = json.load(f)
   #SQL QUERY
