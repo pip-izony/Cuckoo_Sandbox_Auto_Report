@@ -12,7 +12,11 @@ You can get the report to JSON.
 pip install selenium
 pip install chromedriver-autoinstaller
 ``` 
-* __Second, set your environment infomation.__
+* __Second, set your environment infomation.__  
+``` 
+#Cuckoo Sandbox path is usually /home/"your_name"/.cuckoo, but you should check this path.
+path = '/home/ubuntu/.cuckoo/storage/analyses/' + str(file_count) + '/reports/report.json'
+``` 
 * __Third, you should insert the malware path in "your_file_path"__
 
 Optionally you can send the report information to database using SQL.
