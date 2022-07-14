@@ -8,12 +8,13 @@ This is a Crawler to get Cuckoo Sandbox Report autometically.
 You can get the report to JSON.   
 
 * __First, you should install Library for execute Crawler.__
-```
+```python
+#Check your Chrome and ChromeDriver that should be same version.
 pip install selenium
 pip install chromedriver-autoinstaller
 ``` 
 * __Second, set your environment infomation.__  
-``` 
+``` python
 #Cuckoo Sandbox path is usually /home/"your_name"/.cuckoo, but you should check this path.
 path = '/home/ubuntu/.cuckoo/storage/analyses/' + str(file_count) + '/reports/report.json'
 ``` 
