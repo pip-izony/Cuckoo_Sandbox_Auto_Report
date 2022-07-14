@@ -14,7 +14,7 @@ driver.maximize_window()
 driver.get("http://127.0.0.1:8000/")
 time.sleep(3)
 s = driver.find_element_by_xpath("//input[@type='file']")
-s.send_keys("/home/ubuntu/Desktop/hello.png")
+s.send_keys("your_file_path")
 
 time.sleep(3)
 driver.find_element_by_xpath('//*[@id="filetree"]/ul/li/div/label/span').click()
