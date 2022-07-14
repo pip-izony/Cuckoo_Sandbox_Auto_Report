@@ -9,7 +9,7 @@ You can get the report to JSON.
 
 * __First, you should install Library for execute Crawler.__
 ```python
-#Check your Chrome and ChromeDriver that should be same version.
+#Check your Chrome and ChromeDriver version.
 pip install selenium
 pip install chromedriver-autoinstaller
 ``` 
