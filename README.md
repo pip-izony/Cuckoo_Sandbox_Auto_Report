@@ -7,10 +7,11 @@ Cuckoo Sandbox Github : <https://github.com/cuckoosandbox>
 This is a Crawler to get Cuckoo Sandbox Report autometically.   
 You can get the report to JSON.   
 
-* First, you should install Library for execute Crawler.
+* __First, you should install Library for execute Crawler.__
 ```
 pip install selenium
 pip install chromedriver-autoinstaller
 ``` 
-* Second, set your environment infomation.
-* Third, you should insert the malware path in "your_file_path"
+* __Second, set your environment infomation.__
+* __Third, you should insert the malware path in "your_file_path"__
+* Optionally you can send the report information to database using SQL.
