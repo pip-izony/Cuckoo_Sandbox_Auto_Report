@@ -5,7 +5,7 @@ import time
 import os.path
 
 #report count
-file_count = 18              
+file_count = 1          
 
 driver = webdriver.Chrome('./chromedriver')
 driver.implicitly_wait(0.5)
@@ -38,3 +38,4 @@ with open('/home/ubuntu/.cuckoo/storage/analyses/latest/reports/report.json') as
   connection.commit()
   print(data)
   print('\n\n\nSuccess to insert JSON report in Database')
+  file_count = file_count + 1
