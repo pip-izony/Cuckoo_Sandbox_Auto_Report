@@ -1,4 +1,4 @@
-# AUTO REPORT
+# Cuckoo Sandbox Auto Report 🤖
 <img src="https://user-images.githubusercontent.com/50067697/178905264-0e466a9a-be32-4698-a6c7-94eb55119a05.gif" width="100%" height="100%"/>
 
 Before starting, you should install the Cuckoo Sandbox.   
